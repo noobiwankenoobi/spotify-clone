@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Sidebar from '../components/Sidebar'
 
 const Home = () => {
   return (
@@ -9,8 +10,7 @@ const Home = () => {
       </Head>
 
       <main className="">
-        <h1>Hello World</h1>
-        {/* Sidebar */}
+        <Sidebar />
         {/* Center */}
       </main>
 
